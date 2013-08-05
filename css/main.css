@@ -19,6 +19,7 @@ body{
 /*    background-color: #898989;*/
 }
 #container{
+	margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;

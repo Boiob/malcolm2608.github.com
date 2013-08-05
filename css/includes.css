@@ -8,7 +8,7 @@ Any html that needs to be referenced/included will be inside of this file.
     background-color: #ff6200;
     /* To center text on a div*/
     vertical-align:middle;/* Element is placed in the middle of its parent*/
-    height: 250px;
+    height: 225px;
     line-height: 250px;/* Set the same as div height*/
 }
 
