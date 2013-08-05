@@ -1,0 +1,43 @@
+/*
+Any html that needs to be referenced/included will be inside of this file.
+*/
+
+#header{
+    color: #fff;
+    font-size: 4em;    
+    background-color: #ff6200;
+    /* To center text on a div*/
+    vertical-align:middle;/* Element is placed in the middle of its parent*/
+    height: 250px;
+    line-height: 250px;/* Set the same as div height*/
+}
+
+#header:hover{
+    background-color: #3c3c3c;
+}
+
+#footerContainer{
+	clear: both;
+	padding: 10px;
+	margin-top: 25px;	
+}
+
+
+
+#footer{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25)	
+	color: #a5a5a5;
+}
+
+#footer img{
+	width: 25px;
+	height: 25px;
+}    

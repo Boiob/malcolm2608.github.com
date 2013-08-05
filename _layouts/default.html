@@ -1,0 +1,38 @@
+<!Doctype html>
+
+<html>
+    <head>        
+        <title>{{page.title}}</title>  
+		
+        		<!-- bootstrap -->
+		<link rel="stylesheet" href="/css/bootstrap.min.css">    
+		<script src="/js/bootstrap.min.js"></script>
+		
+		
+    
+        <link rel="stylesheet" href="/css/main.css"/>
+		<!-- _includes stylesheet -->
+		<link rel="stylesheet" href="/css/includes.css"/>
+		<!-- blogs/post stylesheet -->
+		<link rel="stylesheet" href="/css/blog.css"/>
+		<!-- syntax -->
+		<link rel="stylesheet" href="/css/syntax.css"/>
+ 		<!-- Jquery -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<!-- Custom Fonts -->
+		<script src="http://use.edgefonts.net/comfortaa:n4,n3,n7:all.js"></script>
+	</head>
+    
+    <body>
+        <div id = "container" class="highlight">
+			
+			{% include header.html %}
+			
+			{{ content }}
+			
+			{% include footer.html %}
+		
+        </div>
+        
+    </body>
+</html>

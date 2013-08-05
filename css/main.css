@@ -1,0 +1,77 @@
+/*
+    Color Pallete
+    light-green: #3ba00;
+    orange: #ff6200;
+    pink-purple: #be008a;
+    dark-green: #268e00;
+*/
+
+/*
+    I design my websites for a 1024 x 768 res monitor
+*/
+
+
+/* Main Sections */
+body{
+    background-color: #fff;
+    font-family: comfortaa,arial,sans-serif;
+    text-align: center;
+/*    background-color: #898989;*/
+}
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+	
+    width: 85%;
+}
+
+#container .tiles:hover{
+    background-color: #3c3c3c;
+}
+
+
+
+#leftBigButton{
+    float: left;
+    background-color: #be008a;
+}
+
+#rightBigButton{
+      
+    float: right;
+    background-color: #268e00;
+    
+}
+
+/* End Main Sections*/
+
+
+/*Button Style*/
+.buttonStyle{
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    border-bottom: 2px solid rgba(0,0,0,0.25);
+    cursor: pointer ;/*I might want to keep these */
+}
+/*End Button Style*/
+
+
+/*Misc*/
+a.linkToNormal {
+    text-decoration: none;
+}
+.tiles {
+    text-shadow: 0px -1px 1px;
+    font-size: 3em;
+    color: #fff;
+    margin-top: 20px;
+    width: 49%;
+    height: 350px;
+    line-height: 350px;
+    vertical-align: middle;   
+}
+
+
+
