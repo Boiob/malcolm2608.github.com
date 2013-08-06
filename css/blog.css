@@ -34,6 +34,13 @@
 	border-bottom: 2px solid rbga(0,0,0,0.25);
 }
 
+#blogPostDate{
+	font-weight:100;
+	font-size:0.8em;
+	font-style:italic;
+	color: #268e00;
+}
+
 
 /***Post Page Css***/
 
