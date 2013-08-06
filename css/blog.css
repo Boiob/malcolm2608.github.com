@@ -34,6 +34,12 @@
 	border-bottom: 2px solid rbga(0,0,0,0.25);
 }
 
+#blogPostExcerpt{
+	font-weight: normal;
+	font-size: 1em;
+	
+}
+
 #blogPostDate{
 	font-weight:100;
 	font-size:0.8em;
@@ -56,6 +62,15 @@
 	font-family: sans-serif;
 	text-align: justify;
 }
-.post{
+
+.postTitle{
+	
+}
+.postDate{
+	
+}
+.postContent{
 	font-size: 1.225em;
 }
+
+

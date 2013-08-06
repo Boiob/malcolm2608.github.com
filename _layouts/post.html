@@ -9,10 +9,10 @@ disqus-shortname: malcomclarksblog
 
 <div id="postContainer" >
 	
-	<h1>{{ page.title }}</h1>
-	<h3>{{ page.date | date_to_string }}</h3>
+	<h1 class="postTitle">{{ page.title }}</h1>
+	<h3 class="postDate">{{ page.date | date_to_string }}</h3>
 	
-	<div class="post">
+	<div class="postContent">
 	{{ content }}
 	</div>
 	<!-- SEP IT UP -->
