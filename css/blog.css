@@ -27,6 +27,7 @@
 }
 
 .sepLine{
+	margin : 5px auto 10px auto;
 	height: 2px;
 	background: #a5a5a5;
 	border-radius: 20px;
@@ -47,3 +48,7 @@
 	
 	font-family: sans-serif;
 	text-align: justify;
+}
+.post{
+	font-size: 1.225em;
+}
