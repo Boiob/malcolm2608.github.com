@@ -8,4 +8,4 @@ I made a decision on how I'm going to pick a server side scripting language , af
 - Python with [Django](https://www.djangoproject.com/)
 - [Php ](http://www.php.net/) 
 
-I is also possible that I'll try asp.net however I am not that great with C# and I'd like to be able to use a linux server as a host and I don't think you can do that with asp.net using the .net framework .
+It is also possible that I'll try asp.net however I am not that great with C# and I'd like to be able to use a linux server as a host and I don't think you can do that with asp.net using the .net framework .
