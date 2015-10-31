@@ -5,6 +5,12 @@
     pink-purple: #be008a;
     dark-green: #268e00;
 */
+/*
+    Color Pallete 2
+    orange: #ff6200;
+    light-green: #00ff62;
+    purple: #6200ff;
+*/
 
 /*
     I design my websites for a 1024 x 768 res monitor
@@ -14,7 +20,7 @@
 /* Main Sections */
 body{
     background-color: #fff;
-    font-family: comfortaa,arial,sans-serif;
+    font-family: comfortaa,arial,sans;
     text-align: center;
 /*    background-color: #898989;*/
 }
@@ -35,7 +41,7 @@ body{
 
 #leftBigButton{
     float: left;
-    background-color: #be008a;
+    background-color: #6200ff;
 }
 
 #rightBigButton{
@@ -50,7 +56,7 @@ body{
 
 /*Button Style*/
 .buttonStyle{
-    border-radius: 6px;
+/*    border-radius: 6px; */
     box-shadow: 0 1px 3px rgba(0,0,0,0.6);
     text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
     border-bottom: 2px solid rgba(0,0,0,0.25);

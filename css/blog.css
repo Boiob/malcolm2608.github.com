@@ -9,14 +9,23 @@
 	
 	border: 0px 0px 2px 2px solid rgba(0,0,0,0.25);
 	box-shadow: 0 1px 3px rgba(0,0,0,0.6);
-	border-radius: 6px;
+    /*	border-radius: 6px;*/
 	
-	font-family: sans-serif;
-	/*bootstrap likes to make the font size weird.*/
+	font-family: comfortaa,sans-serif;
 	font-size: 1.25em; 
 	line-height: 150%;
 	
 }
+
+#pageContainer a {
+    text-decoration-line: none;
+    
+
+}
+#pageContainer a:hover{
+    color: #268E00;
+}
+
 #pageContainer ul, li{
 	list-style-type: none;
 	margin: 0;
@@ -59,12 +68,11 @@
 	box-shadow: 0 1px 3px rgba(0,0,0,0.6);
 	border-radius: 6px;
 	
-	font-family: sans-serif;
 	text-align: justify;
 }
 
 .postTitle{
-	
+	color: #268e00;
 }
 .postDate{
 	
