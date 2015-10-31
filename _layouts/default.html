@@ -1,14 +1,10 @@
 <!Doctype html>
+<!--AWWWWWWWWWW SH#! HTML5 DOCTYPE IN THIS BIZNITCH-->
 
-<html>
-    <head>        
+<html ng-app="MyBlog" >
+    <head >        
         <title>{{page.title}}</title>  
-		
-        		<!-- bootstrap -->
-		<link rel="stylesheet" href="/css/bootstrap.min.css">    
-		<script src="/js/bootstrap.min.js"></script>
-		
-		
+
     
         <link rel="stylesheet" href="/css/main.css"/>
 		<!-- _includes stylesheet -->
@@ -18,14 +14,21 @@
 		<!-- syntax -->
 		<link rel="stylesheet" href="/css/syntax.css"/>
  		<!-- Jquery -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <!-- Angular -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js" data-semver="1.4.7" data-require="angular.js@*"></script>
+
 		<!-- Custom Fonts -->
 		<script src="http://use.edgefonts.net/comfortaa:n4,n3,n7:all.js"></script>
+        
+        <!-- Scripts -->
+        <script src="/js/app.js"></script>
+        
 	</head>
     
-    <body>
+    <body >
         <div id = "container" class="highlight">
-			
+			 
 			{% include header.html %}
 			
 			{{ content }}
