@@ -1,4 +1,4 @@
 My first website ever , and made with jekyll. http://malcolm2608.github.io/
 ---
-Thanks to reddit I'm going to try to improve the website 
+Please excuse phrasing and such as I was a kid.
 ## :D ##
